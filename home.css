@@ -1,0 +1,71 @@
+p {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h3 {
+    text-align: left;
+    font-family: sans-serif;
+}
+
+
+.header {
+    display: flex;
+    width: 100%;
+    background-color: navy;
+    color: white;
+    align-items: center;
+}
+
+.header > .title {
+    flex-grow: 1;
+}
+
+ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+    outline: navy solid thick;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    padding: 10px;
+    display: block;
+    color: white;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: navy;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 32%;
+    padding: 0px;
+}
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
