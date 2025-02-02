@@ -8,7 +8,7 @@ document.writeln("        <h1 id=\'titletext\' color=\'white\'> 跨越人 <br> K
 document.writeln("    </div>");
 document.writeln("    <div class=\'info\' align=\'right\'>");
 document.writeln("        <p>");
-document.writeln("            站长：John Franklin <br> <a href=\'https://GitHub.com/JohnFranklin523\' style=\'color: white\'> GitHub </a> <br> Justice523@outlook.com <br> CC-BY v3.0 unless stated <br> Visitors: <span id=\'busuanzi_site_pv\'></span>");
+document.writeln("            站长：John Franklin <br> <a href=\'https://GitHub.com/JohnFranklin523\' style=\'color: white\' target=\'_blank\'> GitHub </a> <br> Justice523@outlook.com <br> CC-BY v3.0 unless stated <br> Visitors: <span id=\'busuanzi_site_pv\'></span>");
 document.writeln("        </p>");
 document.writeln("    </div>");
 document.writeln("</div>");
