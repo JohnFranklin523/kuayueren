@@ -69,3 +69,22 @@ figcaption {
     clear: both;
     display: table;
 }
+
+table.timetable {
+    font-family: Consolas, monospace;
+    border-collapse: collapse;
+    border-style: solid;
+}
+
+tr.num {
+    
+}
+
+tr.num td {
+    text-align: center;
+    vertical-align: bottom;
+}
+
+td.hkr {
+    font-weight: bold;
+}
