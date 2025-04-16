@@ -76,15 +76,24 @@ table.timetable {
     border-style: solid;
 }
 
-tr.num {
-    
-}
-
 tr.num td {
     text-align: center;
     vertical-align: bottom;
 }
 
+tr.tim td {
+    text-align: center;
+    vertical-align: middle;
+}
+
 td.hkr {
     font-weight: bold;
+}
+
+td.sta {
+    white-space: nowrap;
+}
+
+table.timetable tbody th td {
+    text-align: center;
 }
