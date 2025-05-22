@@ -71,7 +71,7 @@ figcaption {
 }
 
 table.timetable {
-    font-family: Consolas, monospace;
+    font-family: "MS Gothic", monospace;
     border-collapse: collapse;
     border-style: solid;
 }
@@ -90,8 +90,19 @@ td.hkr {
     font-weight: bold;
 }
 
+td.kil {
+    white-space: nowrap;
+    text-align: right;
+}
+
 td.sta {
     white-space: nowrap;
+    text-align: center;
+}
+
+td.eng {
+    white-space: nowrap;
+    text-align: left;
 }
 
 table.timetable tbody th td {
