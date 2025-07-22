@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'SarasaMonoSC-Regular';
+    src: url('/archive/sarasamono/SarasaMonoSC-Regular.ttf') format('truetype');
+}
+
 p {
     font-family: sans-serif;
 }
@@ -75,7 +80,7 @@ figcaption {
 }
 
 table.timetable {
-    font-family: "MS Gothic", monospace;
+    font-family: "SarasaMonoSC-Regular", "MS Gothic", monospace;
     border-collapse: collapse;
     border-style: solid;
 }
